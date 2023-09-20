@@ -32,7 +32,7 @@ module.exports = {
         asyncArrow: "always",
       },
     ],
-    "arrow-body-style": ["error", "always"],
+    "arrow-body-style": ["error", "as-needed"],
     curly: "error",
     quotes: ["error", "double"],
     semi: ["error", "always"],

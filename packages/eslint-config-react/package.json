@@ -1,9 +1,10 @@
 {
   "name": "@moaqz/eslint-config-react",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "moaqz",
   "license": "MIT",
+  "homepage": "https://github.com/moaqz/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",

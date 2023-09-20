@@ -1,8 +1,9 @@
 {
   "name": "@moaqz/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "moaqz",
+  "homepage": "https://github.com/moaqz/eslint-config",
   "license": "MIT",
   "dependencies": {
     "eslint-config-standard": "^17.1.0",
