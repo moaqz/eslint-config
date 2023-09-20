@@ -1,0 +1,18 @@
+{
+  "name": "@moaqz/eslint-config-react",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "moaqz",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@moaqz/eslint-config": "workspace:*"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.40.0",
+    "typescript": ">=3.9"
+  }
+}

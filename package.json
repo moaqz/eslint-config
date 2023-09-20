@@ -1,0 +1,19 @@
+{
+  "name": "@moaqz/monorepo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "moaqz",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@moaqz/eslint-config": "workspace:*",
+    "@moaqz/eslint-config-react": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
