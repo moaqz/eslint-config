@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ["standard"],
+  extends: ["standard", "prettier"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
@@ -36,7 +36,6 @@ module.exports = {
     curly: "error",
     quotes: ["error", "double"],
     semi: ["error", "always"],
-    "multiline-ternary": ["error", "never"],
     "no-console": ["error", { allow: ["warn"] }],
   },
 };
