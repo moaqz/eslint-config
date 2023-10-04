@@ -15,7 +15,7 @@ module.exports = {
   plugins: ["import", "n", "promise"],
   rules: {
     "comma-dangle": ["error", "only-multiline"],
-    indent: ["error", 2],
+    "indent": ["error", 2],
     "no-floating-decimal": "error",
     "no-var": "error",
     "prefer-rest-params": "error",
@@ -33,9 +33,10 @@ module.exports = {
       },
     ],
     "arrow-body-style": ["error", "as-needed"],
-    curly: "error",
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
+    "curly": "error",
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
     "no-console": ["error", { allow: ["warn"] }],
+    "quote-props": ["error", "consistent"],
   },
 };
