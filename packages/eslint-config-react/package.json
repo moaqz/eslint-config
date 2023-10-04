@@ -1,6 +1,6 @@
 {
   "name": "@moaqz/eslint-config-react",
-  "version": "0.2.2",
+  "version": "0.3.2",
   "main": "index.js",
   "author": "moaqz",
   "license": "MIT",
