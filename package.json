@@ -1,19 +1,25 @@
 {
-  "name": "@moaqz/monorepo",
-  "version": "0.0.0",
+  "name": "@moaqz/eslint-config",
+  "version": "0.4.2",
   "main": "index.js",
   "author": "moaqz",
+  "homepage": "https://github.com/moaqz/eslint-config",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "lint": "eslint ."
   },
-  "dependencies": {
-    "@moaqz/eslint-config": "workspace:*",
-    "@moaqz/eslint-config-react": "workspace:*"
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.49.0",
-    "react": "^18.2.0",
-    "typescript": "^5.2.2"
+    "eslint": "^8.49.0"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.3.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "globals": "^13.23.0"
   }
 }
