@@ -1,23 +1,23 @@
-## Installation
+## Usage
 
-1. Install the package:
+This package exports a [flat ESLint configuration](https://eslint.org/docs/latest/use/configure/configuration-files-new).
+
+### Install
 
 ```bash
 pnpm add -D eslint @moaqz/eslint-config
 ```
 
-2. Create a `.eslintrc` file in your project's root directory and extend the `@moaqz` configuration:
+### Create config file
 
-```json
-{
-  "extends": "@moaqz",
-  "rules": {
-    /* ... */
-  }
-}
+```js
+// eslint.config.js
+import moaqz from "@moaqz/eslint-config";
+
+export default [moaqz];
 ```
 
-3. Add the following scripts to your `package.json` to run ESLint:
+### Add script for package.json
 
 ```json
 {
